@@ -87,3 +87,36 @@ These scripts are not intended to be run in any particular order (with the excep
 !python3 scriptstune_w2v_with_ray.py            # see optional arguments for distributed HPO     
 ```
 
+## Project Structure
+```
+.
+├── [2.0M]  data
+│   └── [2.0M]  ecomm
+│       └── [2.0M]  OnlineRetail_sessions.pkl
+├── [928K]  images
+├── [ 11K]  LICENSE
+├── [246K]  nbs
+│   └── [242K]  P205596_Training_Session_based_Product_Recommender_using_Word2vec_on_Retail_data.ipynb
+├── [199K]  notebooks
+│   ├── [107K]  Analyze_HPO_results.ipynb
+│   └── [ 89K]  Explore_Online_Retail_Dataset.ipynb
+├── [5.7K]  README.txt
+├── [ 24K]  recsys
+│   ├── [9.9K]  data.py
+│   ├── [   0]  __init__.py
+│   ├── [4.7K]  metrics.py
+│   ├── [4.1K]  models.py
+│   └── [1.3K]  utils.py
+├── [ 40K]  reports
+│   └── [ 36K]  S810511_report.ipynb
+├── [ 319]  requirements3.6.txt
+├── [ 195]  requirements.txt
+├── [ 11K]  scripts
+│   ├── [ 801]  baseline_analysis.py
+│   ├── [ 868]  setup_ray_cluster.py
+│   ├── [2.7K]  train_w2v_with_logging.py
+│   └── [2.6K]  tune_w2v_with_ray.py
+└── [ 229]  setup.py
+
+ 3.4M used in 8 directories, 34 files
+```
